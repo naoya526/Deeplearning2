@@ -13,5 +13,6 @@ def preprocess(text):
     corpus =np.array([word_to_id[w] for w in words])
     return corpus,word_to_id,id_to_word
 
+def create_co_matrix(corpus,vocab_size,window_size=1):
     
     
