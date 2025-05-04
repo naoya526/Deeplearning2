@@ -88,5 +88,5 @@ def ppmi(C,verbose=False,eps=1e-8):
             if cnt % (total//100+1) == 0:
                 print('%.1f%% done' % (100*cnt/total))
     
-    return 0
+    return M
 
